@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+label[id$="currencyLabel"]{
+  height: min-content;
+}
+
+select[id$="currencySelector"]{
+  .form-group .dropdown-menu {
+    left: 0;
+    left: -50% !important;
+    margin-left: -70px;
+    width: 100%;
+
+  }
+} 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
